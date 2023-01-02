@@ -1,0 +1,138 @@
+@media screen  and (max-width:850px) {
+    .main{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .main-text{
+        text-align: center;
+    }
+    .main-text p{
+        max-width: 600px;
+    }
+    .videos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .source-code-links{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .source-body h4{
+        font-size: 1.3rem;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-text p{
+        max-width: 600px;
+    }
+    .language-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburger-icon{
+        display: flex;
+    }
+    #navbar .items{
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;
+     }
+     
+.footer-item-me{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+}
+@media  screen and (max-width:700px) {
+    .source-body h4{
+        font-size: 1rem;
+    }
+    .coffee-section{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .coffee-text{
+        text-align: center;
+    }
+    .coffee-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .coffee-section img{
+        width: 150px;
+    }
+}
+@media  screen and (max-width:550px) {
+    h1{
+        font-size: 3rem;
+    }
+    .video-card{
+        width: 220px;
+    }
+    .video-card img{
+        width: 200px;
+    }
+    .source-body h4{
+        font-size: 0.7rem;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 2rem;
+     }
+     .footer-item-section{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media screen and (max-width:450px) {
+    .video-card{
+        width: 17px;
+    }
+    .video-card img{
+        width: 150px;
+    }
+    .video-card a{
+        width: 90px;
+        text-align: center;
+        font-size: 8px;
+    }
+    .coffee-section img{
+        width: 100px;
+    }
+    .source-body{
+        gap: 1rem;
+    }
+    .source-link{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width:400px) {
+    .language-box{
+        gap: 1rem;
+    }
+    html{
+        font-size: 85%;
+    }
+    .about-img{
+        width: 200px;
+        height: 200px;
+     }
+     .about-img img{
+        width: 140px;
+     }
+     h2{
+        font-size: 2.5rem;
+     }
+}
